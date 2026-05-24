@@ -32,5 +32,6 @@ getUpt.addEventListener("click", function(){
     currentItem.textContent = getInp.value
     getUpt.style.display = "none"
     getBtn.style.display = "inline-block"
+    getInp.value = ""
 })
 
